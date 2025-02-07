@@ -2,7 +2,7 @@
 
 
 ## Introduction
-This project implements a Netflix application with a CI/CD pipeline on Jenkins, using SonarQube to scan the source code, Trivy to scan Docker images, Terraform to deploy AWS EKS, and ArgoCD to deploy to AWS EKS. The project also includes monitoring Jenkins and AWS EKS using Prometheus and Grafana.
+This project implements a Netflix application with a CI/CD pipeline on Jenkins, using SonarQube to scan the source code, Trivy to scan Docker images, Terraform to deploy AWS EKS, and ArgoCD to deploy applications to AWS EKS. The project also includes monitoring Jenkins and AWS EKS using Prometheus and Grafana.
 
 ## Technologies Used
 - **Docker**: For building and managing images.
