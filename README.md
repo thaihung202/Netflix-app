@@ -17,15 +17,12 @@ This project implements a Netflix application with a CI/CD pipeline on Jenkins, 
 
 <div align="center">
   <img src="./public/assets/workflow.png" alt="Logo" width="100%" height="100%">
-
   <br>
   <a href="http://netflix-clone-with-tmdb-using-react-mui.vercel.app/">
     <img src="./public/assets/netflix-logo.png" alt="Logo" width="100" height="32">
   </a>
 </div>
-
 <br />
-
 <div align="center">
   <img src="./public/assets/home-page.png" alt="Logo" width="100%" height="100%">
   <p align="center">Home Page</p>
@@ -38,7 +35,6 @@ This project implements a Netflix application with a CI/CD pipeline on Jenkins, 
 
 <div align="center">
   <img src="./public/assets/jenkins-stageview.png" alt="Logo" width="100%" height="100%">
-  <p align="center">Home Page</p>
 </div>
 
 **Configure CI/CD Pipeline in Jenkins:**
@@ -133,60 +129,65 @@ pipeline{
 **Plugins in Jenkins:**
 
 1 Eclipse Temurin Installer 
+
 2 SonarQube Scanner 
+
 3 NodeJs Plugin
+
 4 Email Extension Plugin
+
 5 Prometheus Metrics
+
 6 Pineline: REST API
+
 7 Pineline: Stage View
+
 8 OWASP Dependency-Check
+
 9 Docker 
+
 10 Docker API
+
 11 Docker Pineline
+
 12 Docker Commons
+
 13 Maven Intergration
 
 ### **SonarQube and Trivy on the EC2 instance to scan for vulnerabilities**
 
 <div align="center">
   <img src="./public/assets/sonarqube.png" alt="Logo" width="100%" height="100%">
-  <p align="center">Home Page</p>
 </div>
 
 ### **Create EKS Cluster with terraform**
 
 <div align="center">
   <img src="./public/assets/eks-cluster.png" alt="Logo" width="100%" height="100%">
-  <p align="center">Home Page</p>
 </div>
 
 <div align="center">
   <img src="./public/assets/eks-nodegroup.png" alt="Logo" width="100%" height="100%">
-  <p align="center">Home Page</p>
 </div>
 
 ### **Deploy Application with ArgoCD**
 
 <div align="center">
-  <img src="./public/assets/agrgocd.png" alt="Logo" width="100%" height="100%">
-  <p align="center">Home Page</p>
+  <img src="./public/assets/argocd.png" alt="Logo" width="100%" height="100%">
 </div>
 
 ### **Monitoring with prometheus and grafana**
 
 <div align="center">
   <img src="./public/assets/prometheus.png" alt="Logo" width="100%" height="100%">
-  <p align="center">Home Page</p>
 </div>
 
 <div align="center">
   <img src="./public/assets/grafana-jenkins.png" alt="Logo" width="100%" height="100%">
-  <p align="center">Home Page</p>
 </div>
 
 ### **Send Notification to email**
 
 <div align="center">
   <img src="./public/assets/email.png" alt="Logo" width="100%" height="100%">
-  <p align="center">Home Page</p>
 </div>
